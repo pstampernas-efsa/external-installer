@@ -28,7 +28,7 @@ public class GithubChecker {
 		// create temporary folder if needed
 		File file = new File(dirName);
 
-		System.out.println("Creating " + dirName);
+		LOGGER.info("Creating directory with name: " + dirName);
 
 		// create the directory
 		if (!file.exists()) {
