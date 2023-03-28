@@ -32,11 +32,7 @@ public class GithubChecker {
 		// create temporary folder if needed
 		File file = new File(dirName);
 
-<<<<<<< HEAD
 		LOGGER.info("Creating directory with name: " + dirName);
-=======
-		LOGGER.info("Directory name is : " + dirName);
->>>>>>> f6a9d1a (Added logging to external installer new repo)
 
 		// create the directory
 		if (!file.exists()) {
